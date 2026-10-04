@@ -1,19 +1,15 @@
-# Intelligence Designed To Evolve
+# Ahmad — Portfolio
 
-Single-viewport, full-bleed video-background landing page. Plain HTML + CSS + vanilla JS, no build step.
-
-```
-index.html
-styles.css
-main.js
-assets/logo.webp
-fonts/GeistPixel-Circle.woff2   (Geist Pixel, SIL Open Font License — see fonts/OFL-Geist.txt)
-```
+Shopify & e‑commerce growth portfolio. Plain HTML + CSS + vanilla JS, no build step.
 
 ## Run
-Double-click `index.html`, or drag the folder onto https://app.netlify.com/drop to put it online.
-An internet connection is needed for the background video, Inter, BubbledotICG-FinePos and Font Awesome (all loaded from CDNs).
+Double-click `index.html`, or drag the folder onto https://app.netlify.com/drop to publish.
 
 ## Edit
-- Text, links and stats: `index.html` (stat numbers are the `data-target` / `data-suffix` / `data-decimals` attributes)
-- Logo: replace `assets/logo.webp` (square image; shown at 72% inside the white circle)
+- **Projects** → `projects.js`: paste a live URL + category. Screenshot, title and description are fetched automatically
+  (thum.io screenshot, Microlink metadata, cached 7 days). Override with `title`, `desc`, `image`, `tags`, `result`.
+- **Contact** → `PROFILE` in `projects.js` (email, WhatsApp, socials).
+- **Hero stats** → `data-target` / `data-suffix` in `index.html`.
+- **Logo** → replace `assets/logo.webp`.
+
+Fonts: Inter (Google Fonts), BubbledotICG-FinePos (OnlineWebFonts), Geist Pixel Circle fallback (OFL, `fonts/`). Icons: Font Awesome 6.5.2.

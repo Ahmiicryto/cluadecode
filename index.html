@@ -3,18 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Intelligence Designed To Evolve</title>
-  <meta name="description" content="Build applications that reason, adapt and collaborate using a modular AI platform designed for production." />
+  <title>Ahmad — Shopify &amp; E‑commerce Growth</title>
+  <meta name="description" content="Ahmad is a freelance Shopify developer and e‑commerce growth marketer from Pakistan: custom Shopify themes and apps, TikTok and Meta ads, SEO, web development and AI tools." />
+  <meta property="og:title" content="Ahmad — Shopify &amp; E‑commerce Growth" />
+  <meta property="og:description" content="Custom Shopify themes and apps, TikTok and Meta ads, SEO, web development and AI tools." />
   <meta name="theme-color" content="#000000" />
   <link rel="icon" href="assets/logo.webp" type="image/webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link
-    href="https://db.onlinewebfonts.com/c/8cb707a9b8a73f8a7403336b861c3074?family=BubbledotICG-FinePos"
-    rel="stylesheet"
-  />
+  <link href="https://db.onlinewebfonts.com/c/8cb707a9b8a73f8a7403336b861c3074?family=BubbledotICG-FinePos" rel="stylesheet" />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -25,99 +24,315 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg" aria-hidden="true">
-    <video class="bg-video" autoplay muted loop playsinline>
-      <source
-        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
-        type="video/mp4"
-      />
-    </video>
-  </div>
+  <!-- ===================== Header ===================== -->
+  <header class="header">
+    <a href="#home" class="logo" aria-label="Ahmad — home">
+      <img src="assets/logo.webp" alt="" width="52" height="52" />
+    </a>
 
-  <div class="page">
-    <!-- ===== Header ===== -->
-    <header class="header">
-      <a href="#" class="logo" aria-label="Home">
-        <img src="assets/logo.webp" alt="" width="52" height="52" />
-      </a>
-
-      <nav class="nav" aria-label="Main">
-        <a href="#" class="nav-link active" aria-current="page">Home</a>
-        <a href="#" class="nav-link">Product</a>
-        <a href="#" class="nav-link">Case Studies</a>
-        <a href="#" class="nav-link">Contact</a>
-      </nav>
-
-      <a href="#" class="sign-in">Sign in</a>
-
-      <button
-        class="burger"
-        type="button"
-        aria-label="Open menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <span></span><span></span><span></span>
-      </button>
-    </header>
-
-    <!-- ===== Mobile menu ===== -->
-    <div class="menu-overlay" hidden></div>
-    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile" hidden>
-      <a href="#" class="m-link active" aria-current="page" style="--i: 0">Home</a>
-      <a href="#" class="m-link" style="--i: 1">Product</a>
-      <a href="#" class="m-link" style="--i: 2">Case Studies</a>
-      <a href="#" class="m-link" style="--i: 3">Contact</a>
-      <a href="#" class="m-sign-in" style="--i: 4">Sign in</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </nav>
 
-    <!-- ===== Hero ===== -->
-    <main class="hero">
-      <div class="trust anim" style="--d: 0.05s">
-        <span class="avatar a1"><span class="avatar-inner"><i class="fa-brands fa-microsoft" aria-hidden="true"></i></span></span>
-        <span class="avatar a2"><span class="avatar-inner"><i class="fa-brands fa-amazon" aria-hidden="true"></i></span></span>
-        <span class="avatar a3"><span class="avatar-inner"><i class="fa-brands fa-google" aria-hidden="true"></i></span></span>
-        <span class="trust-pill">Trusted by 2000+ Enterprises</span>
+    <a href="#contact" class="sign-in">Hire me</a>
+
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu-overlay" hidden></div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile" hidden>
+    <a href="#home" class="m-link active" style="--i: 0">Home</a>
+    <a href="#services" class="m-link" style="--i: 1">Services</a>
+    <a href="#work" class="m-link" style="--i: 2">Work</a>
+    <a href="#process" class="m-link" style="--i: 3">Process</a>
+    <a href="#contact" class="m-link" style="--i: 4">Contact</a>
+    <a href="#contact" class="m-sign-in" style="--i: 5">Hire me</a>
+  </nav>
+
+  <main>
+    <!-- ===================== Hero ===================== -->
+    <section id="home" class="hero-screen">
+      <div class="bg" aria-hidden="true">
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
 
-      <h1 class="headline anim">
-        <span class="line l1">Intelligence</span>
-        <span class="line l2">Designed To Evolve</span>
-      </h1>
+      <div class="hero">
+        <div class="trust anim" style="--d: 0.05s">
+          <span class="avatar a1"><span class="avatar-inner"><i class="fa-brands fa-shopify" aria-hidden="true"></i></span></span>
+          <span class="avatar a2"><span class="avatar-inner"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></span></span>
+          <span class="avatar a3"><span class="avatar-inner"><i class="fa-brands fa-meta" aria-hidden="true"></i></span></span>
+          <span class="trust-pill">Shopify · TikTok · Meta Specialist</span>
+        </div>
 
-      <p class="subhead anim" style="--d: 0.28s">
-        Build applications that reason, adapt and collaborate using a modular
-        AI platform designed for production.
-      </p>
+        <h1 class="headline">
+          <span class="line l1">Shopify Stores</span>
+          <span class="line l2">Designed To Sell</span>
+        </h1>
 
-      <a href="#" class="cta anim" style="--d: 0.4s">Get Started</a>
-    </main>
+        <p class="subhead anim" style="--d: 0.28s">
+          I'm Ahmad, a freelance developer and growth marketer from Pakistan. I build custom
+          Shopify themes and apps, run TikTok and Meta ads, and handle SEO and AI tools for brands worldwide.
+        </p>
 
-    <!-- ===== Stats ===== -->
-    <section class="stats" aria-label="Platform metrics">
-      <div class="stat anim" style="--d: 0.5s">
-        <span class="stat-icon" aria-hidden="true">&lt;</span>
-        <span class="stat-value" data-target="120" data-suffix="ms" data-decimals="0">0ms</span>
-        <span class="stat-label">Inference Time</span>
+        <div class="cta-row anim" style="--d: 0.4s">
+          <a href="#contact" class="cta">Start a Project</a>
+          <a href="#work" class="cta-dark">View Work</a>
+        </div>
       </div>
-      <div class="stat anim" style="--d: 0.58s">
-        <span class="stat-icon" aria-hidden="true">%</span>
-        <span class="stat-value" data-target="99.99" data-suffix="%" data-decimals="2">0.00%</span>
-        <span class="stat-label">Platform Uptime</span>
-      </div>
-      <div class="stat anim" style="--d: 0.66s">
-        <span class="stat-icon" aria-hidden="true">*</span>
-        <span class="stat-value" data-target="24" data-suffix="/7" data-decimals="0">0/7</span>
-        <span class="stat-label">Autonomous Runtime</span>
-      </div>
-      <div class="stat anim" style="--d: 0.74s">
-        <span class="stat-icon" aria-hidden="true">#</span>
-        <span class="stat-value" data-target="2.4" data-suffix="M" data-decimals="1">0.0M</span>
-        <span class="stat-label">Context Windows</span>
+
+      <!-- Edit these numbers to your real figures -->
+      <div class="stats" aria-label="Highlights">
+        <div class="stat anim" style="--d: 0.5s">
+          <span class="stat-icon" aria-hidden="true">+</span>
+          <span class="stat-value" data-target="120" data-suffix="+" data-decimals="0">0+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat anim" style="--d: 0.58s">
+          <span class="stat-icon" aria-hidden="true">#</span>
+          <span class="stat-value" data-target="60" data-suffix="+" data-decimals="0">0+</span>
+          <span class="stat-label">Shopify Stores Built</span>
+        </div>
+        <div class="stat anim" style="--d: 0.66s">
+          <span class="stat-icon" aria-hidden="true">%</span>
+          <span class="stat-value" data-target="4.2" data-suffix="x" data-decimals="1">0.0x</span>
+          <span class="stat-label">Average ROAS</span>
+        </div>
+        <div class="stat anim" style="--d: 0.74s">
+          <span class="stat-icon" aria-hidden="true">*</span>
+          <span class="stat-value" data-target="5" data-suffix="+ yrs" data-decimals="0">0+ yrs</span>
+          <span class="stat-label">Experience</span>
+        </div>
       </div>
     </section>
-  </div>
 
+    <!-- ===================== Marquee ===================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Shopify Themes</span><b>•••</b><span>Shopify Apps</span><b>•••</b><span>TikTok Ads</span><b>•••</b><span>Meta Ads</span><b>•••</b><span>SEO</span><b>•••</b><span>Web Development</span><b>•••</b><span>AI Tools</span><b>•••</b>
+        <span>Shopify Themes</span><b>•••</b><span>Shopify Apps</span><b>•••</b><span>TikTok Ads</span><b>•••</b><span>Meta Ads</span><b>•••</b><span>SEO</span><b>•••</b><span>Web Development</span><b>•••</b><span>AI Tools</span><b>•••</b>
+      </div>
+    </div>
+
+    <!-- ===================== Services ===================== -->
+    <section id="services" class="section">
+      <div class="section-head reveal">
+        <span class="kicker">Services</span>
+        <h2 class="display">Everything Your<br />Store Needs To Grow</h2>
+        <p class="section-sub">From the first line of Liquid code to the ad that brings in the sale. One person handles the whole funnel.</p>
+      </div>
+
+      <div class="bento">
+        <article class="card card-feature reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-brands fa-shopify"></i></span></span>
+            <span class="card-num">01</span>
+          </div>
+          <h3 class="display card-title-lg">Shopify Custom<br />Themes</h3>
+          <p>Custom Online Store 2.0 themes built from scratch or from your Figma design. Fast, conversion-focused and fully editable in the theme editor.</p>
+          <ul class="chips"><li>Liquid</li><li>OS 2.0 Sections</li><li>Figma to Shopify</li><li>Speed 90+</li><li>Shopify Plus</li></ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-solid fa-puzzle-piece"></i></span></span>
+            <span class="card-num">02</span>
+          </div>
+          <h3>Shopify Apps</h3>
+          <p>Public and private apps, checkout extensions and Shopify Functions built with Remix and Polaris.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-brands fa-tiktok"></i></span></span>
+            <span class="card-num">03</span>
+          </div>
+          <h3>TikTok Ads</h3>
+          <p>Creative testing, Spark Ads, Pixel and Events API setup, and scaling campaigns that stay profitable.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-brands fa-meta"></i></span></span>
+            <span class="card-num">04</span>
+          </div>
+          <h3>Meta Ads</h3>
+          <p>Facebook and Instagram funnels, Conversions API, Advantage+ shopping campaigns and ROAS tracking.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-solid fa-magnifying-glass-chart"></i></span></span>
+            <span class="card-num">05</span>
+          </div>
+          <h3>SEO</h3>
+          <p>Technical audits, Core Web Vitals, schema markup, and product and collection SEO that brings in organic sales.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-solid fa-code"></i></span></span>
+            <span class="card-num">06</span>
+          </div>
+          <h3>Web Development</h3>
+          <p>Fast, modern websites and web apps built with React, Next.js and Node, responsive on every screen.</p>
+        </article>
+
+        <article class="card card-wide reveal">
+          <div class="card-top">
+            <span class="ring"><span class="ring-inner"><i class="fa-solid fa-robot"></i></span></span>
+            <span class="card-num">07</span>
+          </div>
+          <h3>AI Tool Development</h3>
+          <p>Custom AI tools for e‑commerce: product description generators, support chatbots, review analysers and automation workflows built on modern LLM APIs.</p>
+          <ul class="chips"><li>LLM APIs</li><li>Chatbots</li><li>Automation</li><li>RAG</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== Work ===================== -->
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <span class="kicker">Selected Work</span>
+        <h2 class="display">Projects That<br />Move Numbers</h2>
+      </div>
+
+      <div class="filter-wrap reveal">
+        <div class="filters" role="tablist" aria-label="Filter projects">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="shopify" role="tab" aria-selected="false">Shopify</button>
+          <button class="filter" data-filter="ads" role="tab" aria-selected="false">Ads</button>
+          <button class="filter" data-filter="seo" role="tab" aria-selected="false">SEO</button>
+          <button class="filter" data-filter="web" role="tab" aria-selected="false">Web</button>
+          <button class="filter" data-filter="ai" role="tab" aria-selected="false">AI</button>
+        </div>
+      </div>
+
+      <div id="projects-grid" class="projects-grid"></div>
+    </section>
+
+    <!-- ===================== Process ===================== -->
+    <section id="process" class="section">
+      <div class="section-head reveal">
+        <span class="kicker">Process</span>
+        <h2 class="display">From Idea To<br />Revenue</h2>
+      </div>
+
+      <ol class="process">
+        <li class="step reveal" style="--d: 0s">
+          <span class="step-num">01</span>
+          <h3>Discover</h3>
+          <p>A free call to understand your brand, audience, competitors and goals.</p>
+        </li>
+        <li class="step reveal" style="--d: 0.08s">
+          <span class="step-num">02</span>
+          <h3>Design</h3>
+          <p>Wireframes and UI that put conversions first. You approve before any code is written.</p>
+        </li>
+        <li class="step reveal" style="--d: 0.16s">
+          <span class="step-num">03</span>
+          <h3>Build</h3>
+          <p>Clean, fast development with a live preview link and regular progress updates.</p>
+        </li>
+        <li class="step reveal" style="--d: 0.24s">
+          <span class="step-num">04</span>
+          <h3>Launch &amp; Scale</h3>
+          <p>Launch, then ads, SEO and ongoing improvements that grow your revenue month after month.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== Tools ===================== -->
+    <section class="section section-tight">
+      <div class="section-head reveal">
+        <span class="kicker">Toolkit</span>
+        <h2 class="display">Tools I Work With</h2>
+      </div>
+      <ul class="tools reveal">
+        <li><i class="fa-brands fa-shopify"></i>Shopify</li>
+        <li><i class="fa-brands fa-js"></i>JavaScript</li>
+        <li><i class="fa-brands fa-react"></i>React</li>
+        <li><i class="fa-brands fa-node-js"></i>Node.js</li>
+        <li><i class="fa-brands fa-python"></i>Python</li>
+        <li><i class="fa-brands fa-figma"></i>Figma</li>
+        <li><i class="fa-brands fa-meta"></i>Meta Ads</li>
+        <li><i class="fa-brands fa-tiktok"></i>TikTok Ads</li>
+        <li><i class="fa-brands fa-google"></i>Google Analytics</li>
+        <li><i class="fa-brands fa-wordpress"></i>WordPress</li>
+        <li><i class="fa-brands fa-git-alt"></i>Git</li>
+        <li><i class="fa-solid fa-robot"></i>AI / LLM APIs</li>
+      </ul>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section id="faq" class="section section-narrow">
+      <div class="section-head reveal">
+        <span class="kicker">FAQ</span>
+        <h2 class="display">Good Questions</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal">
+          <summary>How long does a custom Shopify theme take?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Most custom themes take 2–4 weeks, depending on the number of pages and features. You get a preview link from the first week.</p>
+        </details>
+        <details class="reveal">
+          <summary>Can you work on my existing store?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Yes. I can redesign sections, fix speed issues, add features or build a custom app without breaking your live store.</p>
+        </details>
+        <details class="reveal">
+          <summary>Do you manage ads after setup?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Yes. I offer monthly TikTok and Meta ads management with creative testing, scaling and a weekly performance report.</p>
+        </details>
+        <details class="reveal">
+          <summary>Which time zones do you work with?<span class="plus" aria-hidden="true"></span></summary>
+          <p>I work with clients in the US, UK, Europe, the Middle East and Australia, and keep flexible hours for calls.</p>
+        </details>
+        <details class="reveal">
+          <summary>How do payments work?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Fixed-price projects are split into milestones. I also work through Upwork and Fiverr if you prefer platform protection.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===================== Contact ===================== -->
+    <section id="contact" class="contact">
+      <div class="bg contact-bg" aria-hidden="true">
+        <video class="bg-video" autoplay muted loop playsinline preload="none">
+          <source
+            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="contact-inner reveal">
+        <span class="kicker">Contact</span>
+        <h2 class="display contact-title">Let's Build<br />Something That Sells</h2>
+        <p class="subhead">Tell me about your store or idea. I usually reply within a few hours.</p>
+        <div class="cta-row">
+          <a id="wa-link" href="#" class="cta" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp me</a>
+          <a id="mail-link" href="#" class="cta-dark"><i class="fa-regular fa-envelope"></i> Email me</a>
+        </div>
+        <ul id="socials" class="socials"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Ahmad · Pakistan · Working worldwide</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="projects.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
