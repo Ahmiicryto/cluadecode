@@ -2,184 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ahmad — Shopify, E‑commerce & AI Developer</title>
-  <meta name="description" content="Ahmad is a freelance Shopify & e‑commerce developer from Pakistan: custom Shopify themes & apps, TikTok & Meta ads, SEO, web development and AI tool development." />
-  <meta property="og:title" content="Ahmad — Shopify, E‑commerce & AI Developer" />
-  <meta property="og:description" content="Custom Shopify themes & apps, TikTok/Meta ads, SEO, web & AI tools." />
-  <meta name="theme-color" content="#07070c" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%2307070c'/><text x='50' y='68' font-size='56' text-anchor='middle' font-family='Arial Black' fill='%23b4ff5a'>A</text></svg>" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Intelligence Designed To Evolve</title>
+  <meta name="description" content="Build applications that reason, adapt and collaborate using a modular AI platform designed for production." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="assets/logo.webp" type="image/webp" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://db.onlinewebfonts.com/c/8cb707a9b8a73f8a7403336b861c3074?family=BubbledotICG-FinePos"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- ===== Pill navbar ===== -->
-  <header class="nav-wrap">
-    <nav class="pill-nav" aria-label="Main">
-      <a href="#home" class="brand" aria-label="Home"><span class="brand-dot"></span>Ahmad</a>
-      <div class="nav-links">
-        <span class="nav-indicator" aria-hidden="true"></span>
-        <a href="#home" class="nav-link active">Home</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#work" class="nav-link">Work</a>
-        <a href="#process" class="nav-link">Process</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-      <a href="#contact" class="nav-cta">Hire me</a>
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  <div class="bg" aria-hidden="true">
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source
+        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260809_012548_ef22562c-c0ae-4816-ad9d-f8922af4e6a7.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </div>
+
+  <div class="page">
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <a href="#" class="logo" aria-label="Home">
+        <img src="assets/logo.webp" alt="" width="52" height="52" />
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#" class="nav-link active" aria-current="page">Home</a>
+        <a href="#" class="nav-link">Product</a>
+        <a href="#" class="nav-link">Case Studies</a>
+        <a href="#" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#" class="sign-in">Sign in</a>
+
+      <button
+        class="burger"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- ===== Mobile menu ===== -->
+    <div class="menu-overlay" hidden></div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile" hidden>
+      <a href="#" class="m-link active" aria-current="page" style="--i: 0">Home</a>
+      <a href="#" class="m-link" style="--i: 1">Product</a>
+      <a href="#" class="m-link" style="--i: 2">Case Studies</a>
+      <a href="#" class="m-link" style="--i: 3">Contact</a>
+      <a href="#" class="m-sign-in" style="--i: 4">Sign in</a>
     </nav>
-  </header>
 
-  <main>
     <!-- ===== Hero ===== -->
-    <section id="home" class="hero">
-      <canvas id="hero-canvas" aria-hidden="true"></canvas>
-      <div class="hero-spotlight" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="eyebrow reveal"><span class="pulse"></span> Available for new projects</p>
-        <h1 class="hero-title reveal">
-          I build <span class="grad">Shopify stores</span><br />
-          that <span class="rotator" aria-live="polite"><span class="rotator-word">sell more.</span></span>
-        </h1>
-        <p class="hero-sub reveal">
-          Hi, I'm <strong>Ahmad</strong>, a freelance e‑commerce developer from Pakistan.
-          I build custom Shopify themes and apps, run TikTok and Meta ads, and do SEO, web development and AI tools for brands worldwide.
-        </p>
-        <div class="hero-ctas reveal">
-          <a href="#work" class="btn btn-primary magnetic">View my work <span class="arrow">→</span></a>
-          <a href="#contact" class="btn btn-ghost magnetic">Let's talk</a>
-        </div>
-        <ul class="hero-pills reveal" aria-label="Core services">
-          <li>Shopify Themes</li><li>Shopify Apps</li><li>TikTok Ads</li><li>Meta Ads</li><li>SEO</li><li>AI Tools</li>
-        </ul>
-      </div>
-      <div class="hero-stats reveal">
-        <div><b data-count="120">0</b><span>+ Projects</span></div>
-        <div><b data-count="60">0</b><span>+ Shopify stores</span></div>
-        <div><b data-count="5">0</b><span>+ Years</span></div>
-        <div><b data-count="98">0</b><span>% Happy clients</span></div>
-      </div>
-      <a href="#services" class="scroll-hint" aria-label="Scroll down"><span></span></a>
-    </section>
-
-    <!-- ===== Marquee ===== -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <span>Shopify Custom Themes</span><i>✦</i><span>Shopify Apps</span><i>✦</i><span>TikTok Ads</span><i>✦</i><span>Meta Ads</span><i>✦</i><span>SEO</span><i>✦</i><span>Web Development</span><i>✦</i><span>AI Tools</span><i>✦</i>
-        <span>Shopify Custom Themes</span><i>✦</i><span>Shopify Apps</span><i>✦</i><span>TikTok Ads</span><i>✦</i><span>Meta Ads</span><i>✦</i><span>SEO</span><i>✦</i><span>Web Development</span><i>✦</i><span>AI Tools</span><i>✦</i>
-      </div>
-    </div>
-
-    <!-- ===== Services ===== -->
-    <section id="services" class="section">
-      <div class="section-head reveal">
-        <p class="kicker">What I do</p>
-        <h2>Services built around <span class="grad">e‑commerce growth</span></h2>
+    <main class="hero">
+      <div class="trust anim" style="--d: 0.05s">
+        <span class="avatar a1"><span class="avatar-inner"><i class="fa-brands fa-microsoft" aria-hidden="true"></i></span></span>
+        <span class="avatar a2"><span class="avatar-inner"><i class="fa-brands fa-amazon" aria-hidden="true"></i></span></span>
+        <span class="avatar a3"><span class="avatar-inner"><i class="fa-brands fa-google" aria-hidden="true"></i></span></span>
+        <span class="trust-pill">Trusted by 2000+ Enterprises</span>
       </div>
 
-      <div class="bento">
-        <article class="card card-feature tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">🛍️</span>
-          <h3>Shopify Custom Themes &amp; Apps</h3>
-          <p>Custom Liquid themes, Online Store 2.0 sections, Shopify Plus checkout extensions, and public or private apps with Remix and Polaris. Built for fast pages and high conversion.</p>
-          <ul class="chips"><li>Liquid</li><li>OS 2.0</li><li>Shopify Plus</li><li>Remix</li><li>Polaris</li><li>Hydrogen</li></ul>
-        </article>
-        <article class="card tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">🎯</span>
-          <h3>TikTok Ads</h3>
-          <p>Creative testing, Spark Ads, pixel and Events API setup, and scaling campaigns that stay profitable.</p>
-        </article>
-        <article class="card tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">📈</span>
-          <h3>Meta Ads</h3>
-          <p>Facebook and Instagram funnels, Conversions API, Advantage+ shopping campaigns, and tracking ROAS.</p>
-        </article>
-        <article class="card tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">🔍</span>
-          <h3>SEO</h3>
-          <p>Technical audits, Core Web Vitals, schema markup, and on‑page and product SEO that brings in organic sales.</p>
-        </article>
-        <article class="card tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">💻</span>
-          <h3>Web Development</h3>
-          <p>Fast, modern websites and web apps built with React, Next.js and Node, with clean code and responsive layouts.</p>
-        </article>
-        <article class="card card-wide tilt reveal">
-          <div class="card-glow"></div>
-          <span class="card-icon">🤖</span>
-          <h3>AI Tool Development</h3>
-          <p>Custom AI tools on the Claude and OpenAI APIs: product description generators, support chatbots, automation workflows and internal dashboards.</p>
-          <ul class="chips"><li>LLM APIs</li><li>Chatbots</li><li>Automation</li><li>RAG</li></ul>
-        </article>
+      <h1 class="headline anim">
+        <span class="line l1">Intelligence</span>
+        <span class="line l2">Designed To Evolve</span>
+      </h1>
+
+      <p class="subhead anim" style="--d: 0.28s">
+        Build applications that reason, adapt and collaborate using a modular
+        AI platform designed for production.
+      </p>
+
+      <a href="#" class="cta anim" style="--d: 0.4s">Get Started</a>
+    </main>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats" aria-label="Platform metrics">
+      <div class="stat anim" style="--d: 0.5s">
+        <span class="stat-icon" aria-hidden="true">&lt;</span>
+        <span class="stat-value" data-target="120" data-suffix="ms" data-decimals="0">0ms</span>
+        <span class="stat-label">Inference Time</span>
+      </div>
+      <div class="stat anim" style="--d: 0.58s">
+        <span class="stat-icon" aria-hidden="true">%</span>
+        <span class="stat-value" data-target="99.99" data-suffix="%" data-decimals="2">0.00%</span>
+        <span class="stat-label">Platform Uptime</span>
+      </div>
+      <div class="stat anim" style="--d: 0.66s">
+        <span class="stat-icon" aria-hidden="true">*</span>
+        <span class="stat-value" data-target="24" data-suffix="/7" data-decimals="0">0/7</span>
+        <span class="stat-label">Autonomous Runtime</span>
+      </div>
+      <div class="stat anim" style="--d: 0.74s">
+        <span class="stat-icon" aria-hidden="true">#</span>
+        <span class="stat-value" data-target="2.4" data-suffix="M" data-decimals="1">0.0M</span>
+        <span class="stat-label">Context Windows</span>
       </div>
     </section>
+  </div>
 
-    <!-- ===== Work ===== -->
-    <section id="work" class="section">
-      <div class="section-head reveal">
-        <p class="kicker">Selected work</p>
-        <h2>Projects I'm <span class="grad">proud of</span></h2>
-      </div>
-
-      <div class="filter-pills reveal" role="tablist" aria-label="Filter projects">
-        <span class="filter-indicator" aria-hidden="true"></span>
-        <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
-        <button class="filter" data-filter="shopify" role="tab" aria-selected="false">Shopify</button>
-        <button class="filter" data-filter="ads" role="tab" aria-selected="false">Ads</button>
-        <button class="filter" data-filter="web" role="tab" aria-selected="false">Web</button>
-        <button class="filter" data-filter="seo" role="tab" aria-selected="false">SEO</button>
-        <button class="filter" data-filter="ai" role="tab" aria-selected="false">AI</button>
-      </div>
-
-      <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
-    </section>
-
-    <!-- ===== Process ===== -->
-    <section id="process" class="section">
-      <div class="section-head reveal">
-        <p class="kicker">How I work</p>
-        <h2>From idea to <span class="grad">revenue</span> in 4 steps</h2>
-      </div>
-      <ol class="process">
-        <li class="reveal"><span>01</span><h3>Discover</h3><p>We go through your brand, audience, competitors and goals on a free call.</p></li>
-        <li class="reveal"><span>02</span><h3>Design</h3><p>Wireframes and UI that put conversions first, approved by you before any code.</p></li>
-        <li class="reveal"><span>03</span><h3>Build</h3><p>Clean, fast development with live progress updates and a staging preview link.</p></li>
-        <li class="reveal"><span>04</span><h3>Launch &amp; Grow</h3><p>Launch, then ads, SEO and continued improvements to scale your sales.</p></li>
-      </ol>
-    </section>
-
-    <!-- ===== Contact ===== -->
-    <section id="contact" class="section contact">
-      <div class="contact-card reveal">
-        <div class="card-glow"></div>
-        <p class="kicker">Let's work together</p>
-        <h2>Have a project in mind?<br /><span class="grad">Let's make it sell.</span></h2>
-        <p class="contact-sub">Tell me about your store or idea. I usually reply within a few hours.</p>
-        <div class="hero-ctas">
-          <a id="wa-link" href="#" class="btn btn-primary magnetic" target="_blank" rel="noopener">WhatsApp me <span class="arrow">→</span></a>
-          <a id="mail-link" href="#" class="btn btn-ghost magnetic">Email me</a>
-        </div>
-        <ul class="socials" id="socials"></ul>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© <span id="year"></span> Ahmad · <span id="location"></span></p>
-    <a href="#home" class="to-top">Back to top ↑</a>
-  </footer>
-
-  <div class="cursor-dot" aria-hidden="true"></div>
-  <div class="cursor-ring" aria-hidden="true"></div>
-
-  <script src="projects.js"></script>
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
